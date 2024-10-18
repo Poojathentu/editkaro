@@ -1,0 +1,147 @@
+/* Body and Background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: teal;
+    color: coral;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: coral;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: coral;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Background Images for Dashboard Buttons */
+nav ul li a[data-filter="All"] {
+    background-image: url('https://hallardpress.com/wp-content/uploads/2022/03/all-e1648754955711.jpeg');
+}
+
+nav ul li a[data-filter="short"] {
+    background-image: url('https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/shortslogo.jpg');
+}
+
+nav ul li a[data-filter="long"] {
+    background-image: url('https://modelschoolrohtak.com/css/gallery/VideoIcon.jpg');
+}
+
+nav ul li a[data-filter="gaming"] {
+    background-image: url('https://cdn.pixabay.com/video/2021/09/27/89894-616430996_tiny.jpg');
+}
+
+nav ul li a[data-filter="football"] {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKR6YYXlttx8E94M9ZJdiyQx3W-jpwCKRIVA&s');
+}
+
+nav ul li a[data-filter="ecommerce"] {
+    background-image: url('https://cdn1.expresscomputer.in/wp-content/uploads/2023/01/04165947/EC_Retail_ECommerce_750.jpg');
+}
+
+nav ul li a[data-filter="documentary"] {
+    background-image: url('https://media.licdn.com/dms/image/D4E12AQGktYcoR0L00g/article-cover_image-shrink_720_1280/0/1681218814048?e=2147483647&v=beta&t=-Mru9qW4fs2dRCuUAPSwH52wcI9T09mR3-kwa1P_FgM');
+}
+
+nav ul li a[data-filter="colorgrading"] {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAn_SScxuim7FDEgVexFN4s2qVsfMJwjfFIQ&s');
+}
+
+nav ul li a[data-filter="anime"] {
+    background-image: url('https://m.media-amazon.com/images/I/61KBNVEfxcL._AC_UF1000,1000_QL80_.jpg');
+}
+
+nav ul li a[data-filter="ads"] {
+    background-image: url('https://static.semrush.com/blog/uploads/media/8b/06/8b063f735e2192a61c6861f4755ffc5d/what-is-digital-advertising.svg');
+}
+
+nav ul li a:hover {
+    transform: translateY(-5px);
+    background-color: coral;
+    color: teal;
+    box-shadow: 0 6px 12px rgba(255, 127, 80, 0.4);
+}
+
+/* Video container */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Video Card Styling */
+.video-card {
+    margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Larger Videos with Rounded Corners */
+video {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    color: coral;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: teal;
+    color: coral;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
